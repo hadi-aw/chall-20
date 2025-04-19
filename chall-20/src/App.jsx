@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import Gallery from './components/Gallery';
 import DestinationSelector from './components/DestinationSelector';
 
-const API = 'https://course-api.com/react-tours-project';
+
+const API = '/api/react-tours-project';
 
 export default function App() {
   const [tours, setTours] = useState([]);
